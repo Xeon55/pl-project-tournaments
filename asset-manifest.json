@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pl-project-tournaments/static/css/main.8fb5a5d2.css",
+    "main.js": "/pl-project-tournaments/static/js/main.292255ec.js",
+    "index.html": "/pl-project-tournaments/index.html",
+    "main.8fb5a5d2.css.map": "/pl-project-tournaments/static/css/main.8fb5a5d2.css.map",
+    "main.292255ec.js.map": "/pl-project-tournaments/static/js/main.292255ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fb5a5d2.css",
+    "static/js/main.292255ec.js"
+  ]
+}

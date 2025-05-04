@@ -1,13 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* home page */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f8f9fa;
+}
+
+.game-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.game-button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  width: 200px;
+  transition: background-color 0.3s ease;
+}
+
+.game-button:hover {
+  background-color: #0056b3;
+}
+
+.auth-button {
+  margin-top: 20px;
+}
+
+.login-register-btn {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-register-btn:hover {
+  background-color: #218838;
+}
+
+/* Навбар */
+.nav-link {
+  @apply text-white text-xl hover:text-blue-400 px-4 py-2 bg-gray-700 rounded-lg hover:bg-gray-600 transition duration-300;
+}
+
+.nav-sub {
+  @apply hover:text-blue-400 transition;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40;
+  padding: 10px 20px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.navbar-link:hover {
+  color: #007bff;
+}
+
+.navbar-auth {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #218838;
 }

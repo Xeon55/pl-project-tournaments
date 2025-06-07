@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pl-project-tournaments/static/css/main.52aeea3c.css",
-    "main.js": "/pl-project-tournaments/static/js/main.97cc3fdc.js",
+    "main.css": "/pl-project-tournaments/static/css/main.c4fec399.css",
+    "main.js": "/pl-project-tournaments/static/js/main.a6a93686.js",
     "index.html": "/pl-project-tournaments/index.html",
-    "main.52aeea3c.css.map": "/pl-project-tournaments/static/css/main.52aeea3c.css.map",
-    "main.97cc3fdc.js.map": "/pl-project-tournaments/static/js/main.97cc3fdc.js.map"
+    "main.c4fec399.css.map": "/pl-project-tournaments/static/css/main.c4fec399.css.map",
+    "main.a6a93686.js.map": "/pl-project-tournaments/static/js/main.a6a93686.js.map"
   },
   "entrypoints": [
-    "static/css/main.52aeea3c.css",
-    "static/js/main.97cc3fdc.js"
+    "static/css/main.c4fec399.css",
+    "static/js/main.a6a93686.js"
   ]
 }
